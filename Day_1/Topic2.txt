@@ -1,0 +1,70 @@
+Topic 2: Writing Effective Test Cases
+Subtopic a: Test Case Structure – Preconditions, Steps, Expected Results
+===========================================================================
+🔹 What is a Test Case?
+A test case is a set of actions to verify a particular software feature.
+
+🔹 Structure of a Test Case:
+
+Field	        Description
+Test Case ID	Unique identifier for each test case.
+Test Scenario	Brief description of what is being tested.
+Preconditions	Any setup needed before running the test.
+Test Steps	    Step-by-step instructions to execute the test.
+Expected Result	What should happen after executing the steps.
+Actual Result	What actually happens (logged after execution).
+Status	        Pass/Fail based on the actual result.
+
+📌 Example Test Case:
+
+Field	         Details
+Test Case ID	 TC_001
+Test Scenario	 Verify login functionality with valid credentials.
+Preconditions	 User must have a registered account.
+Test Steps	     1. Open login page
+                 2. Enter valid username & password
+                 3. Click Login button
+Expected Result	 User should be redirected to the homepage.
+Actual Result	 (To be filled after execution)
+Status	         Pass/Fail
+
+
+Subtopic b: Examples – Writing Test Cases for Real-Life Scenarios
+==============================================================================
+📌 Example 1: Test Case for a Shopping Cart
+
+Test Case ID	  TC_002
+Test Scenario	  Verify adding an item to the shopping cart.
+Preconditions	  User must be logged in.
+Test Steps	      1. Open product page
+                  2. Click "Add to Cart" button
+                  3. Go to the cart page
+Expected Result	  The selected item should be displayed in the cart.
+Actual Result	  (To be filled after execution)
+
+📌 Example 2: Test Case for Forgot Password
+Test Case ID	    TC_003
+Test Scenario	    Verify the forgot password functionality.
+Preconditions	    User must have a registered email ID.
+Test Steps	        1. Go to login page
+                    2. Click on "Forgot Password"
+                    3. Enter registered email & submit
+                    4. Check email for reset link
+Expected Result	    User should receive a password reset email.
+
+
+
+Subtopic c: Best Practices for Writing Test Cases
+===========================================================================
+✔ Use Clear & Simple Language – Avoid ambiguity.
+✔ Be Specific – Mention exact input data & expected output.
+✔ Use Consistent Formatting – Follow a structured format.
+✔ Cover Positive & Negative Scenarios – Test all possibilities.
+✔ Make Tests Reproducible – Anyone should be able to follow them.
+✔ Keep Tests Independent – Avoid dependencies between test cases.
+
+📌 Example of a Poor Test Case:
+❌ Test login functionality. (Too vague)
+
+✅ Example of a Good Test Case:
+✔ Verify login with valid credentials, ensuring the user is redirected to the homepage.

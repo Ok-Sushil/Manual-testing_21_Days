@@ -1,0 +1,57 @@
+Topic 1: Basics of Manual Testing & SDLC/STLC
+Subtopic a: Software Development Life Cycle (SDLC) – Stages & Importance
+=================================================================================
+🔹 What is SDLC?
+SDLC (Software Development Life Cycle) is the process of planning, creating, testing, and deploying software.
+
+🔹 Stages of SDLC:
+
+Phase                            	Description
+1. Requirement Analysis	            Understanding what the software should do.
+2. Planning	                        Deciding timeline, budget, and resources.
+3. Design	                        Creating system architecture & UI/UX design.
+4. Development	                    Coding and building the software.
+5. Testing	                        Checking if the software works as expected.
+6. Deployment	                    Releasing software for end users.
+7. Maintenance	                    Fixing bugs and updating features.
+
+📌 Why is SDLC important?
+✔ Ensures structured software development
+✔ Reduces risks & errors
+✔ Saves time & cost
+
+Subtopic b: Software Testing Life Cycle (STLC) – Test Planning, Execution & Reporting
+========================================================================================================
+🔹 What is STLC?
+STLC (Software Testing Life Cycle) is a step-by-step process for testing software.
+
+🔹 Stages of STLC:
+Phase	Description
+1. Requirement Analysis	                               Understanding the test requirements.
+2. Test Planning	                                   Deciding test strategy, tools, and resources.
+3. Test Case Development	                           Writing test cases based on requirements.
+4. Environment Setup	                               Setting up the test environment.
+5. Test Execution	                                   Running test cases and reporting defects.
+6. Test Closure	                                       Reviewing test reports and lessons learned.
+
+
+📌 Why is STLC important?
+✔ Helps in systematic testing
+✔ Ensures all functionalities are covered
+✔ Reduces defects in production
+
+Subtopic c: Manual Tester’s Role – Responsibilities & Skills
+======================================================================================================
+🔹 What does a Manual Tester do?
+✔ Understands requirements & test scenarios.
+✔ Creates test cases & test data.
+✔ Executes manual test cases.
+✔ Logs defects & issues in bug tracking tools (JIRA, Bugzilla).
+✔ Verifies fixes & performs regression testing.
+
+🔹 Skills Required:
+✔ Analytical skills – Understanding complex workflows.
+✔ Attention to detail – Catching even minor issues.
+✔ Communication skills – Reporting bugs effectively.
+✔ Basic SQL knowledge – Verifying data in databases.
+✔ Basic automation knowledge – For future growth.

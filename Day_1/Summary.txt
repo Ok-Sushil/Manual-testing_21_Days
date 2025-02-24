@@ -1,0 +1,6 @@
+✅ Summary of What You Learned Today:
+✔ SDLC & STLC – Importance in software & testing.
+✔ Manual Tester’s Role – Responsibilities & key skills.
+✔ Writing Effective Test Cases – Structure & best practices.
+✔ Real-life Test Case Examples – Login, shopping cart, forgot password.
+
